@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 st.set_page_config(
-    page_title="Sales Analytics & Forecasting Dashboard",
+    page_title="Global Business Anlaytics and Sales Forecasting",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -141,7 +141,7 @@ with st.sidebar:
     st.write(f"Current Threshold: $\pm$**{trend_threshold}%**")
 
 
-st.title("📈 Global Sales Analytics & Forecasting")
+st.title("📈 Global Business Anlaytics and Sales Forecasting")
 st.markdown("An interactive dashboard for analyzing sales performance and predicting future sales.")
 
 st.header("📊 Key Performance Indicators")
